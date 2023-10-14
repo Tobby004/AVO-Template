@@ -1,0 +1,30 @@
+{
+    "sourceFile": "avo.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1684341197294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684342996083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,16 @@\n         <h3>ABOUT US</h3>\n         <div> <img src=\"IMG_0287.jpg\" height=\"20px\"><br>UI/UX</div>\n         <div>Web Development</div>\n         <div>Product Design</div>\n-        <div>Mobile Apps</div>\n-        <div>SEO</div>\n+        <div> \n+            <ion-icon name=\"heart\"></ion-icon><br>\n+            Mobile Apps\n+        </div>\n+        <div>\n+            <ion-icon name=\"search-outline\"></ion-icon> <br>\n+            SEO</div>\n     </section>\n </body>\n+<script nomodule src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js\"></script>\n+<script type=\"module\" src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js\"></script>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684343667628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,17 +24,26 @@\n         <input type=\"button\" value=\"Explore Project\">\n     </main>\n     <section>\n         <h3>ABOUT US</h3>\n-        <div> <img src=\"IMG_0287.jpg\" height=\"20px\"><br>UI/UX</div>\n-        <div>Web Development</div>\n-        <div>Product Design</div>\n         <div> \n-            <ion-icon name=\"heart\"></ion-icon><br>\n+            <ion-icon name=\"logo-amplify\"></ion-icon><br>\n+            UI/UX\n+        </div>\n+        <div>\n+            <ion-icon name=\"logo-web-component\"></ion-icon><br>\n+            Web Development\n+        </div>\n+        <div>\n+            <ion-icon name=\"logo-designernews\"></ion-icon><br>\n+            Product Design\n+        </div>\n+        <div> \n+            <ion-icon name=\"logo-apple-appstore\"></ion-icon><br>\n             Mobile Apps\n         </div>\n         <div>\n-            <ion-icon name=\"search-outline\"></ion-icon> <br>\n+            <ion-icon name=\"search-circle-outline\"></ion-icon><br>\n             SEO</div>\n     </section>\n </body>\n <script nomodule src=\"https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js\"></script>\n"
+                },
+                {
+                    "date": 1684344016575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>AVO-Template</title>\n     <link rel=\"stylesheet\" href=\"avo.css\">\n </head>\n <body>\n-    <div class=\"logo\">avo</div>\n+    <div class=\"logo\">a<b>v</b>o</div>\n     <nav>\n         <ul>\n             <li><a href=\"#\">HOME</a></li>\n             <li><a href=\"#\">ABOUT</a></li>\n"
+                }
+            ],
+            "date": 1684341197294,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>AVO-Template</title>\n    <link rel=\"stylesheet\" href=\"avo.css\">\n</head>\n<body>\n    <div class=\"logo\">avo</div>\n    <nav>\n        <ul>\n            <li><a href=\"#\">HOME</a></li>\n            <li><a href=\"#\">ABOUT</a></li>\n            <li><a href=\"#\">WORK</a></li>\n            <li><a href=\"#\">BLOG</a></li>\n            <li><a href=\"#\">CONTACT</a></li>\n        </ul>\n    </nav>\n    <main>\n        <h1>WE CREATE <br>MODERN & <br> MINIMAL WEBSITE</h1>\n        <p>A small river named Duden flows by their place and <br>supplies it with the necessary regelialia </p>\n        <input type=\"button\" value=\"Explore Project\">\n    </main>\n    <section>\n        <h3>ABOUT US</h3>\n        <div> <img src=\"IMG_0287.jpg\" height=\"20px\"><br>UI/UX</div>\n        <div>Web Development</div>\n        <div>Product Design</div>\n        <div>Mobile Apps</div>\n        <div>SEO</div>\n    </section>\n</body>\n</html>"
+        }
+    ]
+}

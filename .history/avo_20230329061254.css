@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.logo {
+  font-size: 30px;
+  position: absolute;
+  padding: 7px;
+}
+nav ul {
+    margin: auto;
+    text-align:center;
+}
+nav li {
+    display: inline-flex;
+    margin-left: 100px;
+}
+nav a {
+text-decoration: none;
+padding: 1rem 1.5rem;
+background: hotpink;
+color: #ccc;
+}

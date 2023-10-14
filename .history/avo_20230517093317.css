@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(87, 128, 128);
+}
+.logo {
+  font-size: 30px;
+  position: absolute;
+  padding: 7px;
+  color: white;
+}
+nav ul {
+    margin: auto;
+    text-align:center;
+    margin-left: 100px;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+text-decoration: none;
+padding: 1rem 1.5rem;
+background: rgb(171, 112, 142);
+color: #7d1616;
+}
+h1 {
+    color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+main p { 
+    color: whitesmoke;
+    margin-left: 150px;
+}
+input[type="button"] {
+    padding: 10px;
+    color: white;
+    background: red;
+    margin-left: 150px;
+}
+section {
+    height: 320px;
+    background: rgb(223, 217, 193);
+    margin-top: 70px;
+    text-align: center;
+}
+ h3 {
+    text-align: center;
+    padding-top:  60px;
+}
+section div {
+    display: inline-block;
+    padding: 1rem;
+    background: rgb(55, 23, 23);
+   color: deepskyblue;
+}

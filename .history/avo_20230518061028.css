@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #dc8d8b;
+    background-image: url(avo-back.jpg);
+    background-size: cover;
+}
+.logo {
+  font-size: 39px;
+  position: absolute;
+  padding: 7px;
+  color: white;
+  margin-left: 70px;
+}
+.logo b {
+    color: red;
+}
+
+nav ul {
+    margin: auto;
+    text-align:center;
+    margin-left: 100px;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+text-decoration: none;
+padding: 1rem 1.5rem;
+color:gold;
+}
+nav a:hover {
+    transition: 2s;
+    color: aqua;
+}
+
+h1 {
+    color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+main p { 
+    color: whitesmoke;
+    margin-left: 150px;
+}
+input[type="button"] {
+    padding: 10px;
+    color: white;
+    background: red;
+    margin-left: 150px;
+}
+section {
+    height: 320px;
+    background:white;
+    margin-top: 70px;
+    text-align: center;
+}
+ h3 {
+    text-align: center;
+    padding-top:  60px;
+}
+section div {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 10px;
+}
+div ion-icon {
+    font-size: 30px;
+}

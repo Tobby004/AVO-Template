@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+.logo {
+  font-size: 20px;
+  position: absolute;
+}
+nav ul {
+    margin: auto;
+    text-align:center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+text-decoration: none;
+padding: 1rem 1.5rem;
+}

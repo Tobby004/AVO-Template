@@ -1,0 +1,50 @@
+{
+    "sourceFile": "avo.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1680109394514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1680109703708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,10 @@\n     box-sizing: border-box;\n }\n body {\n     background: rgb(87, 128, 128);\n+    background-image: url(IMG100.JPG);\n+    background-size: cover;\n }\n .logo {\n   font-size: 30px;\n   position: absolute;\n"
+                },
+                {
+                    "date": 1680109747349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,8 @@\n     box-sizing: border-box;\n }\n body {\n     background: rgb(87, 128, 128);\n-    background-image: url(IMG100.JPG);\n-    background-size: cover;\n }\n .logo {\n   font-size: 30px;\n   position: absolute;\n"
+                },
+                {
+                    "date": 1684341197302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   font-size: 30px;\n   position: absolute;\n   padding: 7px;\n   color: white;\n-  margin-left: 100px;\n }\n nav ul {\n     margin: auto;\n     text-align:center;\n"
+                },
+                {
+                    "date": 1684343667633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,7 +51,8 @@\n }\n section div {\n     display: inline-block;\n     padding: 1rem;\n-    background: rgb(55, 23, 23);\n-   color: deepskyblue;\n+}\n+div ion-icon {\n+    font-size: 30px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684344016572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,20 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background: rgb(87, 128, 128);\n+    background: rgb(32, 155, 155);\n }\n .logo {\n-  font-size: 30px;\n+  font-size: 33px;\n   position: absolute;\n   padding: 7px;\n   color: white;\n }\n+.logo b {\n+    color: red;\n+}\n+\n nav ul {\n     margin: auto;\n     text-align:center;\n     margin-left: 100px;\n@@ -20,11 +24,15 @@\n }\n nav a {\n text-decoration: none;\n padding: 1rem 1.5rem;\n-background: rgb(171, 112, 142);\n color: #7d1616;\n }\n+nav a:hover {\n+    transition: 2s;\n+    color: aqua;\n+}\n+\n h1 {\n     color: white;\n     margin-left: 150px;\n     margin-top: 100px;\n@@ -40,9 +48,9 @@\n     margin-left: 150px;\n }\n section {\n     height: 320px;\n-    background: rgb(223, 217, 193);\n+    background:white;\n     margin-top: 70px;\n     text-align: center;\n }\n  h3 {\n@@ -51,8 +59,9 @@\n }\n section div {\n     display: inline-block;\n     padding: 1rem;\n+    font-size: 10px;\n }\n div ion-icon {\n     font-size: 30px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684344289477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background: rgb(32, 155, 155);\n+    background: #f7cac9;\n }\n .logo {\n   font-size: 33px;\n   position: absolute;\n"
+                },
+                {
+                    "date": 1684414896687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,18 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background: #f7cac9;\n+    background: #dc8d8b;\n+    background-image: url(avo-back.jpg);\n+    background-size: cover;\n }\n .logo {\n   font-size: 33px;\n   position: absolute;\n   padding: 7px;\n   color: white;\n+  margin-left: 70px;\n }\n .logo b {\n     color: red;\n }\n"
+                },
+                {
+                    "date": 1684414962800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     background-image: url(avo-back.jpg);\n     background-size: cover;\n }\n .logo {\n-  font-size: 33px;\n+  font-size: 39px;\n   position: absolute;\n   padding: 7px;\n   color: white;\n   margin-left: 70px;\n@@ -27,9 +27,9 @@\n }\n nav a {\n text-decoration: none;\n padding: 1rem 1.5rem;\n-color: #7d1616;\n+color:gold;\n }\n nav a:hover {\n     transition: 2s;\n     color: aqua;\n"
+                }
+            ],
+            "date": 1680109394514,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nbody {\n    background: rgb(87, 128, 128);\n}\n.logo {\n  font-size: 30px;\n  position: absolute;\n  padding: 7px;\n  color: white;\n  margin-left: 100px;\n}\nnav ul {\n    margin: auto;\n    text-align:center;\n    margin-left: 100px;\n}\nnav li {\n    display: inline-flex;\n}\nnav a {\ntext-decoration: none;\npadding: 1rem 1.5rem;\nbackground: rgb(171, 112, 142);\ncolor: #7d1616;\n}\nh1 {\n    color: white;\n    margin-left: 150px;\n    margin-top: 100px;\n}\nmain p { \n    color: whitesmoke;\n    margin-left: 150px;\n}\ninput[type=\"button\"] {\n    padding: 10px;\n    color: white;\n    background: red;\n    margin-left: 150px;\n}\nsection {\n    height: 320px;\n    background: rgb(223, 217, 193);\n    margin-top: 70px;\n    text-align: center;\n}\n h3 {\n    text-align: center;\n    padding-top:  60px;\n}\nsection div {\n    display: inline-block;\n    padding: 1rem;\n    background: rgb(55, 23, 23);\n   color: deepskyblue;\n}"
+        }
+    ]
+}

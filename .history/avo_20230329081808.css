@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: darkslategrey;
+}
+.logo {
+  font-size: 30px;
+  position: absolute;
+  padding: 7px;
+}
+nav ul {
+    margin: auto;
+    text-align:center;
+    margin-right: 100px;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+text-decoration: none;
+padding: 1rem 1.5rem;
+background: hotpink;
+color: #ccc;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+main p { 
+    color: whitesmoke;
+    text-align: center;
+}
+input[type="button"] {
+    padding: 10px;
+    color: white;
+    background: red;
+    margin-left: 190px;
+}
